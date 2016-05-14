@@ -11,7 +11,7 @@
 			<form action="countries-pop" method="get"></form>
 			<div>
 				<input name="country" type="text" placeholder="type country name" autofocus="autofocus">
-				<input type="submit" value="go">
+				<input type="submit" value="Get Population">
 			</div>
 
 		</div>
