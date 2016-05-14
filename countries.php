@@ -8,8 +8,12 @@
 	<div id="container">
 		<div id="main">
 			<h1>Country Data</h1>
-			<input type="text">
-			
+			<form action="countries-pop" method="get"></form>
+			<div>
+				<input name="country" type="text" placeholder="type country name" autofocus="autofocus">
+				<input type="submit" value="go">
+			</div>
+
 		</div>
 	</div>
 </body>
