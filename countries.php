@@ -10,7 +10,7 @@
 		<div id="container">
 			<div class="main bg-success form-group has-success">
 				<h1>Country Data</h1>
-				<form action="countries-pop" method="get">
+				<form action="countries-pop.php" method="get">
 					<div>
 						<input id="country-field" name="country" type="text" placeholder="type country name" autofocus="autofocus">
 						<input id="submit" type="submit" value="Get Population">
