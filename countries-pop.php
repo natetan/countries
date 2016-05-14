@@ -3,7 +3,7 @@
 	if (isset($_GET["country"]))	 {
 		$country = $_GET["country"];
 	}
-	$db = new PDO("mysql:dbname=world;host=localhost;charset=utf8", "traveler", "packmybags");
+	$db = new PDO("mysql:dbname=world;host=https://webster.cs.washington.edu/cse154/query/;charset=utf8", "traveler", "packmybags");
 	$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 	$country_name = $db->quote($country);
 	$population = $db->query("SELECT population
