@@ -8,11 +8,11 @@
 </head>
 <body>
 	<div id="container">
-		<div class="main bg-success">
+		<div class="main bg-success form-group has-success">
 			<h1>Country Data</h1>
 			<form action="countries-pop" method="get"></form>
 			<div>
-				<input name="country" type="text" placeholder="type country name" autofocus="autofocus">
+				<input id="country-field" name="country" type="text" placeholder="type country name" autofocus="autofocus">
 				<input type="submit" value="Get Population">
 			</div>
 
