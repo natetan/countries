@@ -15,3 +15,7 @@ body {
 	padding: 2px;
 	border-radius: 5px;
 }
+
+#display {
+	margin-top: 5px;
+}
