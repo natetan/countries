@@ -6,5 +6,5 @@ window.onload = function() {
 };
 
 function clearDisplay() {
-	this.innerHTML = "";
+	document.querySelector("#message").innerHTML = "";
 }
