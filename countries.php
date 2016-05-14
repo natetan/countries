@@ -8,7 +8,7 @@
 </head>
 <body>
 	<div id="container">
-		<div id="main bg-success">
+		<div class="main bg-success">
 			<h1>Country Data</h1>
 			<form action="countries-pop" method="get"></form>
 			<div>

@@ -2,7 +2,7 @@ body {
 	font-family: arial;
 }
 
-#main {
+.main {
 	text-align: center;
 	margin: 3%;
 	width: 80%;
