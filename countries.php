@@ -13,9 +13,9 @@
 			<form action="countries-pop" method="get"></form>
 			<div>
 				<input id="country-field" name="country" type="text" placeholder="type country name" autofocus="autofocus">
-				<input type="submit" value="Get Population">
+				<input id="submit" type="submit" value="Get Population">
 			</div>
-
+			<h2 id="display">This is some placeholder text</h2>
 		</div>
 	</div>
 </body>
