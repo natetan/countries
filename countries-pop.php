@@ -1,6 +1,6 @@
 <?php
 	$country = "";
-	if (isset($_GET["country"])) {
+	if (isset($_GET["country"]))	 {
 		$country = $_GET["country"];
 	}
 	$db = new PDO("mysql:dbname=world;host=localhost;charset=utf8", "traveler", "packmybags");
@@ -9,7 +9,7 @@
 	$population = $db->query("SELECT population
 							  FROM countries
 							  WHERE name = {$country_name}");
-	$message = "The country you typed is not in the database."
+	$message = "The country you typed is not in the database.";
 	if ($population->rowCount() > 0) {
 		$message = "$country_name" . "'s population is " . $population["population"];
 	} 
