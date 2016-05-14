@@ -11,7 +11,8 @@
 							  WHERE name = {$country_name}");
 	$message = "The country you typed is not in the database.";
 	if ($population->rowCount() > 0) {
-		$message = "$country_name" . "'s population is " . $population["population"];
+		$popRow = $population->fetch();
+		$message = "$country_name" . "'s population is " . $popRow["population"];
 	} 
 ?>
 
