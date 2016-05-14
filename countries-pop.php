@@ -1,6 +1,6 @@
 <?php
 	$country = "";
-	if (isset($_GET["country"]) {
+	if (isset($_GET["country"])) {
 		$country = $_GET["country"];
 	}
 	$db = new PDO("mysql:dbname=world;host=localhost;charset=utf8", "traveler", "packmybags");
